@@ -1,0 +1,202 @@
+@charset "UTF-8";
+/* isoi.css */
+
+#wrap {position: relative; width: 100%; min-width: 320px; height: 100%;}
+
+/* headBox ============================================= */
+#headBox {position: relative; width: 100%; height: 100px; background-color: #fff;}
+#headBox > h1 {position: absolute; top:10px; left:50%; width:20%; height:80px; background-image:url("../../img/isoi_logo.png"); background-size:contain; background-repeat:no-repeat; background-position:50% 50%; text-align: center; transform: translateX(-50%);}
+#headBox > h1 > a {display: block; width: 100%; height: 100%;}
+
+.menu_01 {position:absolute; z-index:100; top:15px; left:20px; width:70px; height:70px; }
+.gnb  button { width: 100%; height: 100%; background-color: #fff; }
+.gnb i{padding:0; text-indent:0; margin: 0; margin: 0; text-rendering: optimizeLegibility; font-size:2.5rem; color:#64676c; }
+
+.menu_02 {position:absolute; z-index:100; top:15px; right:20px; width:70px; height:70px;}
+.gnb ul{display: none;}
+
+/* viewBox_01 ============================================ */
+#viewBox_01 {position: relative; width: 100%; min-width: 320px; height: 700px; background-image: url("../../img/isoi_mob_bg.jpg"); background-size: cover; background-repeat: no-repeat; background-position: 45% 0%;}
+
+#viewBox_01 > .view_01 {position: absolute; top: 10%; left:50%; width: 100%; height: 90px; font-size: 3rem; transform: translateX(-50%); text-align: center; color:#fff; font-family: 'baskerville'; font-weight: bolder;}
+#viewBox_01 > .view_02 {position: absolute; top: 27%; left:0; width: 100%; height:auto; font-size: 1.2rem; text-align: center; color:#fff; font-family: 'Apple SD Gothic';}
+#viewBox_01 > .view_03 {position: absolute; top: 35%; left:50%; width: 60%; max-width:150px; height: auto; font-size: 1rem; text-align: center; transform: translateX(-50%);}
+#viewBox_01 > .view_03 > a {display: block; color: #fff;
+  padding:1rem; background-color: rgba(113, 131, 111, 0.4); border-radius:10px; font-family: 'Apple SD Gothic'; font-weight: lighter;}
+
+#viewBox_01 > .view_04 {position: absolute; bottom: 15%; left:48%; width: 5%; height: 30px; background-image: url("../../img/mouse.png"); background-repeat: no-repeat; background-position: 0 0; background-size: contain;}
+#viewBox_01 > .view_05 {position: absolute; bottom: 9%; width: 100%; height: 23px; color: #fff; font-size: 1.5rem; text-align: center; font-family: 'baskerville'; font-weight: bolder;}
+#viewBox_01 > .view_06 {position: absolute; bottom: 5%; left: 46.5%; width: 45px; height: 10px;}
+#viewBox_01 > .view_06 > button {float:left; width: 10px; height: 10px; background-color: transparent; margin:0; padding: 0; margin-right:5px;
+  border-radius:10px; background-color: #fff;}
+  #viewBox_01 > .view_06 > button:last-of-type {margin-right:0;}
+  #viewBox_01 > .view_06 > button.active {background-color: #999; }
+
+/* #viewBox_01 > .view_06 > #oval_01 {background-image: url("../../img/oval_white.png"); background-repeat: no-repeat; background-position: 0 0; background-size: contain;}
+#viewBox_01 > .view_06 > #oval_02 {background-image: url("../../img/oval_gray.png"); background-repeat: no-repeat; background-position: 0 0; background-size: contain;}
+#viewBox_01 > .view_06 > #oval_03 {background-image: url("../../img/oval_gray.png"); background-repeat: no-repeat; background-position: 0 0; background-size: contain;} */
+
+/* #viewBox_02 ================================================ */
+#viewBox_02 {position: relative; width: 100%; height:auto;
+    padding-top: 5rem; padding-bottom: 10rem;}
+#viewBox_02 > h2 { width: 100%; height: 40px; font-size: 1.2rem; text-align: center; font-family: 'baskerville';}
+#viewBox_02 > .btn {display: none;}
+#viewBox_02 .bsbox > div {position:relative; float:left; width: 50%; height:265px; 
+background-repeat: no-repeat; background-position: 0 0; background-size: contain;}
+#viewBox_02 .bsbox > div > a {display: block; width: 100%; height: 100%; font-family: 'Apple SD Gothic'; font-weight: bold;}
+
+#viewBox_02 .img {width: 100%; height: 70%; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain;}
+
+#viewBox_02 .img_01 {background-image: url("../../img/best_01.jpg");}
+#viewBox_02 .img_02 {background-image: url("../../img/best_02.jpg");}
+#viewBox_02 .img_03 {background-image: url("../../img/best_03.jpg");}
+#viewBox_02 .img_04 {background-image: url("../../img/best_04.jpg");}
+
+.bsBox_05, .bsBox_06, .bsBox_07{display:none;}
+
+
+#viewBox_02 dl {position:absolute; bottom:0; left:0; width:100%; height:auto; text-align: center;}
+
+/* dt */
+#viewBox_02 dl > .dtBox {width: 100%; height:auto;}
+
+/* dd */
+#viewBox_02 dl > .ddBox {width: 100%; height:auto; font-size: small; margin:0.5rem 0;}
+#viewBox_02 a {display: block; color: #000;}
+
+#viewBox_02 > .moreBox {position: absolute; bottom:60px; left:50%; transform:translateX(-50%); width: 165px; height: 45px; background-color: #fff; border: 1px solid #aaa;}
+
+#viewBox_02 > .moreBox > a {display: block; text-align: center; font-size: 0.8rem; font-family: 'Apple SD Gothic'; font-weight: lighter;}
+#viewBox_02 > .moreBox > a > p {padding: 9%; color: #000;}
+
+/* #conBox_01 ============================================= */
+#conBox_01 {position: relative; width: 100%; height: auto; padding-bottom: 5rem; background-color: #fff}
+#conBox_01 .ac {display: block; width: 100%; height: 100%; color:#595959; font-family: 'baskerville'; font-weight: bolder; font-size: 1.5rem; text-align: center;}
+#conBox_01 .more {display: none;}
+#conBox_01 > .artBox_01 {width: 100%; height: 150px; line-height: 150px; background-image: url("../../img/isoi_01.jpg"); background-repeat: no-repeat; background-position: 10% 65%; background-size: cover;}
+#conBox_01 > .artBox_02 {width: 100%; height: 150px; line-height: 150px; background-image: url("../../img/isoi_02.jpg"); background-repeat: no-repeat; background-position: 20% 50%; background-size: cover;}
+
+/* subBox_01 */
+#conBox_01 > .subBox_01 {width: 100%; height: 505px; margin-top: 4rem; text-align: center;}
+#conBox_01 > .subBox_01 > h2 {margin-bottom: 24px; text-align: center; font-family: 'Apple SD Gothic'; font-weight: normal; font-size: 1.2rem;}
+#conBox_01 > .subBox_01 > h2 > span {font-size: 1.8rem; font-weight: bolder;}
+#conBox_01 > .subBox_01 > .imgBox {margin: auto; width: 320px; height: 232px; background-image: url("../../img/isoi_mob_img.jpg"); background-repeat: no-repeat; background-position: 0 0; background-size: contain;}
+#conBox_01 > .subBox_01 > dl {margin-top: 30px; text-align: center;}
+#conBox_01 > .subBox_01 > dl > dt {font-family: 'baskerville'; font-weight: bolder; font-size: 1.5rem;}
+#conBox_01 > .subBox_01 > dl > dd {margin-top: 17px; font-family: 'Apple SD Gothic'; font-size: 0.9rem; font-weight: lighter;}
+
+/* insBox */
+#conBox_01 > .insBox {width: 100%; height: auto; margin-top: 3rem; padding:2vw; box-sizing: border-box;}
+#conBox_01 > .insBox > dl {font-family: 'baskerville'; text-align: center; margin-bottom: 2rem;}
+#conBox_01 > .insBox > dl > dt {font-weight: bolder; font-size: 1.5rem;}
+#conBox_01 > .insBox > dl > dd {margin-top: 10px; font-size: 0.9rem;}
+
+#conBox_01 > .insBox > div {float: left; width:32vw; height: 32vw; box-sizing:border-box; padding:0.5vw;}
+#conBox_01 > .insBox > div >a {display: block; width: 100%; height: 100%; 
+    background-repeat: no-repeat; background-position: 50% 50%; background-size: contain;}
+
+#conBox_01 > .insBox > .ins_01 > a{background-image: url("../../img/insta_01.jpg"); }
+#conBox_01 > .insBox > .ins_02 > a{background-image: url("../../img/insta_02.jpg"); }
+#conBox_01 > .insBox > .ins_03 > a{background-image: url("../../img/insta_03.jpg"); }
+#conBox_01 > .insBox > .ins_04 > a{background-image: url("../../img/insta_04.jpg"); }
+#conBox_01 > .insBox > .ins_05 > a{background-image: url("../../img/insta_05.jpg"); }
+#conBox_01 > .insBox > .ins_06 > a{background-image: url("../../img/insta_06.jpg"); }
+
+/* conBox_02 ============================================= */
+#conBox_02 {width: 100%; height: auto; background-image: url("../../img/meadowfoam.png"); background-repeat: no-repeat; background-position: 0 0; background-size: cover;}
+#conBox_02 > dl {text-align: center; color:#fff; padding: 8%; box-sizing: border-box;}
+#conBox_02 > dl > dt {font-family: 'baskerville'; font-size: 1.5rem; font-weight: bolder;}
+#conBox_02 > dl > dd {margin-top: 10px; font-family: 'Apple SD Gothic'; font-size: 1rem;}
+
+/* #footBox ============================================== */
+#footBox {position: relative; width: 100%; height: 500px; background-color: #262525;}
+#footBox > .infoBox {width: 100%; height: 50px; background-color: #424040; text-align: center;}
+#footBox > .infoBox > p {position: relative; display:inline-block; margin-left: 2px;}
+#footBox > .infoBox > p::before {content:" "; display: block; position: absolute; top: 40%; left:0; width: 1px; height: 25%; background-color: #bbbbbb;}
+#footBox > .infoBox > p:first-of-type:before {display: none;}
+#footBox > .infoBox > p:first-of-type {margin-left: 0;}
+#footBox > .infoBox > p > a {display: block; padding: 18px 11px 0; width: auto; height: 30px; text-align: center; font-family: 'Apple SD Gothic'; font-size: 0.8rem; font-weight: lighter; color: #bbbbbb;}
+
+#footBox > h2 {position: absolute; top: 15%; left:50%; width: 100px; height: 60px; background-image: url("../../img/isoi_logo_white.png"); background-repeat: no-repeat; background-position: 0 0; background-size: contain; transform: translateX(-50%);}
+#footBox > h2 > a {display: block; width: 100%; height: 100%;}
+/* #footBox > .info_01 {} */
+#footBox > .info_01 > dl {position: absolute; top:33%; left:50%; width:100%; min-width:320px; height: 145px; text-align: center; transform: translateX(-50%); font-family: 'Apple SD Gothic'; font-weight: bolder;}
+#footBox > .info_01 dd {margin-top: 30px; font-size: 0.8rem; font-weight: lighter; color:#B9B9B9; line-height: 1.2rem;}
+#footBox > .info_02 > dl {position: absolute; top: 70%; left: 50%; width: 195px; height: 87px; text-align: center; transform: translateX(-50%); font-family: 'Apple SD Gothic'; font-weight: bolder;}
+#footBox > .info_02 dd {margin-top: 30px; font-size: 1.7rem; color:#B9B9B9;}
+
+#footBox dt {font-size: 1.3rem; color:#fff;}
+
+
+@media screen and (min-width:480px) and (max-width:1279px){
+  /* headBox ============================================= */
+
+  
+
+  /* #headBox > .gnb ul{display: block;} */
+}
+
+@media screen and (min-width:768px) and (max-width:1279px){
+  /* #headBox */
+  .mob{display: none;}
+
+  #headBox{width: 100%; box-sizing: border-box; padding:0 2rem;}
+  #headBox > h1 {position:static; float: left; width:100px; height:100px;  
+                 background-image:url("../../img/isoi_logo.png"); background-size:contain;
+                  transform:translateX(0)}
+  #headBox > h1 > a {display: block; width: 100%; height: 100%;}
+  #headBox > .gnb {float:right; width:calc(100% - 120px); box-sizing: border-box; padding-top: 2.5rem; font-family: 'Apple SD Gothic';}
+  #headBox > .gnb > div {position:static; float:left; width:50%; height:auto;}
+  #headBox > .gnb button {display:none;}
+  #headBox > .gnb ul {display: block; width:auto; height:auto; color:#64676c;}
+  #headBox > .gnb ul > li {float: left; margin-left:5%; font-size: 0.89rem; text-transform:uppercase;}
+  #headBox > .gnb ul > li:first-child {margin-left: 0;}
+  #headBox > .gnb ul > li a {padding:0 0.5rem;}
+
+  /* viewBox_01 ============================================ */
+  #viewBox_01 {position: relative; width: 100%; height: 700px;  background-image: url("../../img/isoi_bgr_bg.png"); background-size: cover; background-repeat: no-repeat; background-position: 45% 0;}
+  #viewBox_01 > .view_01 {margin-top: 160px; padding-left:100px; box-sizing: border-box; width: 100%; height: auto; text-align: left;} 
+  #viewBox_01 > .view_02 {margin-top: 120px; padding-left:100px; box-sizing: border-box; width: 100%; height: auto; text-align: left;}
+  #viewBox_01 > .view_03 {margin-top: 120px; padding-left:100px; box-sizing: border-box; width: 100%; max-width: 100%; height: auto; text-align: left;}
+  #viewBox_01 > .view_03 > a {padding:1rem 0; background-color:rgba(113, 131, 111, 0.0);}
+  #viewBox_01 > .view_04 {display: none;}
+  #viewBox_01 > .view_05 {display: none;}
+  #viewBox_01 > .view_06 {position: absolute; bottom: 5%; left: 46.5%; width: 50px; height: 10px;}
+  #viewBox_01 > .view_06 > button {float:left; width: 10px; height: 10px; background-color: transparent; margin:0; padding: 0; margin-right:10px;
+    border-radius:10px; background-color: #fff;}
+
+  /* #viewBox_02 */
+  #viewBox_02 {position: relative; width: 100%; height:auto; padding-top: 10rem; padding-bottom: 12rem;}
+  #viewBox_02 > h2 {padding-bottom: 9rem;}
+  #viewBox_02 > .btn {display: block; position: absolute; top: 50%; left: 0; width: 100%; height: 0;}
+  #viewBox_02 > .btn > button {width: 30px; height: 30px; background-color: #fff;}
+  #viewBox_02 > .btn > button > i {color:#bbbbbb}
+  .next_btn{float:right; margin-right: 6rem;}
+  .prev_btn{float: left; margin-left: 6rem;}
+
+  #viewBox_02 > .bsbox_baseform{width: 70%; height: auto; margin:auto;
+    overflow: hidden;}
+  #viewBox_02 .bsbox {width:230%; height:auto; padding-bottom: 5rem; border-bottom: 1px solid #bbbbbb;} 
+  #viewBox_02 .bsbox > div {display: block; position:relative; float:left; width:14.28%; height:265px; background-repeat: no-repeat; background-position: 0 0; background-size: contain;}
+  #viewBox_02 .bsbox > div > a {display: block; width: 100%; height: 100%;}
+
+  #viewBox_02 .img {width: 100%; height: 70%; background-repeat: no-repeat; background-position: 50% 50%; background-size: contain;}
+
+  #viewBox_02 .img_01 {background-image: url("../../img/best_01.jpg");}
+  #viewBox_02 .img_02 {background-image: url("../../img/best_02.jpg");}
+  #viewBox_02 .img_03 {background-image: url("../../img/best_03.jpg");}
+  #viewBox_02 .img_04 {background-image: url("../../img/best_04.jpg");}
+  #viewBox_02 .img_05 {background-image: url("../../img/best_05.jpg");}
+  #viewBox_02 .img_06 {background-image: url("../../img/best_06.jpg");}
+  #viewBox_02 .img_07 {background-image: url("../../img/best_07.jpg");}
+
+  
+  #viewBox_02 dl {position:absolute; bottom:0; left:0; width:100%;  height:auto; text-align: center;}
+  #viewBox_02 > .moreBox {display: none;}
+
+  #conBox_01 .more {display: block; width: 180px; height: 30px; background-color: #dfd;}
+  #conBox_01 .more a {display: block; width: 100%; height: 100%; color:#595959; font-family: 'Apple SD Gothic'; font-weight: medium; font-size: 1rem; text-align: center;}
+  #conBox_01 > .artBox_01 {float: left; width: 50%; height: 300px;}
+  #conBox_01 > .artBox_02 {float: left; width: 50%; height: 300px;}
+
+}
